@@ -5,7 +5,7 @@ class Sword extends Weapons.Weapon {
 		this.setEffect(me => {
 			me.weaponCode = 2;
 			me.gatherRate = 1;
-			me.damage = 15;
+			me.damage = 30;
 			me.xpGain = 5;
 			me.items[0] = 2;
 		});
